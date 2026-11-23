@@ -14,6 +14,8 @@ Logs, backups, builds, credenciais e arquivos compactados são excluídos. Camin
 
 ## Executar localmente
 
+Ao clonar do GitHub, instale o Godot na versão indicada acima e importe `game/project.godot`. A engine, o ambiente Python e os builds ficam somente na máquina de desenvolvimento e não acompanham o repositório. O atalho `Jogar.cmd` e os comandos abaixo pressupõem a engine local em `engine/godot/Godot.exe`. Os testes Python também podem ser executados com `python -m unittest discover -s tests -v`, sem pacotes adicionais.
+
 Abra **Jogar.cmd** com dois cliques. Para editar, abra `game/project.godot` no Godot. Pelo PowerShell, na raiz:
 
 ```powershell
