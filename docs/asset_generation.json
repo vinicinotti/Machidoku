@@ -1,0 +1,101 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-20",
+  "reference": "Normative desktop v2 for the three v2 assets; existing v1 assets retain their recorded provenance.",
+  "assets": [
+    {
+      "file": "game/assets/specialists/specialist_default.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset type: transparent game character sprite for Machidoku.\nInput image: the attached Machidoku game UI reference is STYLE REFERENCE ONLY. Generate a single NEW isolated character belonging to exactly that premium casual industrial puzzle game. Do not render the UI, tiles, badges, text or any other part of the reference.\nSubject: friendly adult industrial specialist, front-facing bust from chest up, orange safety helmet with center rib, dark industrial blue work shirt and cream/orange safety vest details. Simple warm friendly face with a small smile and open eyes, tasteful dark blue outlines, softly shaded rounded forms. Match the little worker in the reference: polished soft 2.5D painted game illustration, dimensional helmet, small highlights, smooth warm light, clean large readable shapes. Not a flat vector icon, not photorealistic, not childish/chibi. No hands/tools, no badge/check/lock attached, no animation.\nPalette: #F4A261 orange helmet, #264653 and #1B252D uniform/outlines, #FFE6CF warm highlights, small #E76F51 details. Skin warm natural peach.\nComposition: exactly one symmetric centered bust filling most of a square canvas with 5% transparent safety margin around the silhouette. Entire helmet and both shoulders visible, bottom edge clean and gently rounded, no pedestal. Designed to remain readable at 32–72 pixels, but render polished high-resolution detail.\nBackground: genuinely transparent alpha, no colored background, no checkerboard painted into the image, no text, no logos, no watermark.",
+      "transparent_background": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d8a30ef0f5a425191e6a61a079f46ed9d57b88513ef88d84790143fa496adc76"
+    },
+    {
+      "file": "game/assets/vehicles/hatch_compact.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent vehicle illustration for premium casual puzzle game Machidoku.\nInput images are STYLE REFERENCES: the user's attached finished-game UI and the recently generated orange-helmet worker. Generate one NEW car illustration belonging to the same game, matching the small orange hatchback from the UI reference, with the polished soft 2.5D shading of the worker.\nSubject: a fictional compact five-door orange hatchback, clean modern rounded body, believable compact passenger-car proportions, friendly but not anthropomorphic. Front three-quarter view, nose points to viewer's RIGHT, rear at left; full vehicle including all tires visible. Body in Machidoku orange #F4A261 with richer orange shadow, cream highlights; blue-black glass and dark tires, subtle silver wheel rims. Clear crisp silhouette, smooth stylized shading and restrained reflections, tasteful sculpted panels and headlights. This must look like a polished commercial casual mobile game illustration, not a vector drawing, clipart, flat icon, photo, or realistic glossy car advertisement. Match the reference perspective.\nComposition: landscape 2:1 canvas, one centered car filling 88% of width, generous transparent safety margin around entire car, no clipping, slight soft translucent grounding shadow directly below wheels only.\nBackground: actual transparent alpha, NO scenery, road, card, UI, text, badges, watermarks, license lettering, manufacturer logos or brand symbols. Entirely fictitious design; especially no VW or other real emblem. No other objects.",
+      "transparent_background": true,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "1256d4b0b3970018abfba0d3d9ed54ca75940debc48ceedbe09512ef21232dd9"
+    },
+    {
+      "file": "game/assets/vehicles/sedan.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent vehicle illustration for premium casual industrial puzzle game Machidoku. Input images are STYLE REFERENCES ONLY: the user's game UI reference, orange-helmet specialist, and newly generated orange compact hatchback. Match the hatchback's exact illustration family, perspective, lighting and polished soft 2.5D game rendering. Do not render a UI or character.\nFictional design, no real car brands, no manufacturer logos, text, watermark, badge or license lettering. Machidoku orange #F4A261 body with warm lighter highlights, deep #264653/#1B252D glass and tires, subtle silver rims. Clean sculpted rounded panels, soft restrained reflections, readable at 160 pixels. Not photorealistic, not flat vector, not toy/chibi.\nFront three-quarter view with nose facing viewer's RIGHT, full car and wheels in frame. Landscape 2:1 composition, centered subject fills 88% width with transparent safety margins and only a slight translucent grounding shadow immediately under tires. Genuinely transparent alpha background with no scenery or card.\nSubject: ONE elegant four-door sedan with separate rear trunk and longer wheelbase than the hatchback. Balanced roofline, contemporary understated passenger sedan proportions. Make the sedan silhouette clearly distinct from the hatchback while visibly belonging to the same fictional product family.",
+      "transparent_background": true,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "a2448940338accd0a723f94063379ef73cfaab0a46611b49da0d07549ffa3487"
+    },
+    {
+      "file": "game/assets/vehicles/sport_coupe.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent vehicle illustration for premium casual industrial puzzle game Machidoku. Input images are STYLE REFERENCES ONLY: the user's game UI reference, orange-helmet specialist, and newly generated orange compact hatchback. Match the hatchback's exact illustration family, perspective, lighting and polished soft 2.5D game rendering. Do not render a UI or character.\nFictional design, no real car brands, no manufacturer logos, text, watermark, badge or license lettering. Machidoku orange #F4A261 body with warm lighter highlights, deep #264653/#1B252D glass and tires, subtle silver rims. Clean sculpted rounded panels, soft restrained reflections, readable at 160 pixels. Not photorealistic, not flat vector, not toy/chibi.\nFront three-quarter view with nose facing viewer's RIGHT, full car and wheels in frame. Landscape 2:1 composition, centered subject fills 88% width with transparent safety margins and only a slight translucent grounding shadow immediately under tires. Genuinely transparent alpha background with no scenery or card.\nSubject: ONE stylish two-door sports coupe with low roof, broad planted stance, swept windows and long sculpted hood. Sportier proportions and a distinct coupe silhouette, tasteful and friendly instead of aggressive or racing. No spoiler, racing stripes, numbers or branding.",
+      "transparent_background": true,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "1db7a567fd18d77b810fef3e6994d0472bf0ca434f01b73e7a635fe8f82b8c0a"
+    },
+    {
+      "file": "game/assets/decoration/factory_courtyard.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset type: wide transparent decorative environment layer for Machidoku, matching the user's attached premium casual industrial puzzle game UI reference and the newly generated worker/car illustration family.\nGenerate ONLY a softly illustrated fictional factory courtyard environment. No UI, no board, no text, no signs, no cars, no characters, no logos. Style: polished warm soft 2.5D mobile game environment illustration, smooth shaded rounded architectural shapes, gentle warm sunlight from upper left, cream/orange factory buildings, muted blue-gray windows, small sage green shrubs/trees.\nComposition on a wide 16:9 canvas: architectural factory facades frame the left and right EDGES with an open calm center. A factory facade with an elevated enclosed walkway at the far left, another rounded factory facade receding at far right, simple shrubs along lower edges and a warm paved courtyard at the bottom. Buildings may extend up the left/right edges, but keep the central 65% sparse and empty so a gameplay board and cards can cover it. No focal building in center. Top central half must remain transparent with no sky painted behind it. True transparent alpha around the exterior silhouette and in open sky; preserve soft clean edges. Low visual contrast, muted #FFE6CF cream, derived peach #F4A261, restrained #264653 window accents. No dark heavy outlines. No realism, distressed texture, neon, strong gloss or industrial grime. Need a detailed elegant decorative illustration, not flat SVG silhouettes.",
+      "transparent_background": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "f377a460c338b2cc7e294c3220598a56d62ce78a4606da4bdd63548e3d434bb0"
+    },
+    {
+      "file": "game/assets/decoration/factory_courtyard_v2.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Edit the provided normative Machidoku game reference into ONE production-ready BACKGROUND ONLY. Remove ALL foreground game interface, buttons, logo, text, board, cards, panels, life gears and characters. Preserve and complete the same underlying warm illustrated automotive factory courtyard architecture, framing, perspective, golden sunlight, blue distant sky, orange pipes and towers, teal blue industrial steel, glowing cream light, green plants, foreground pavement. Exactly the premium casual mobile game 2.5D polished painterly/rendered style of the reference. Reconstruct the factory scene behind the removed interface, no obvious empty rectangles. Factory buildings at left and right framing a quieter distant center. A little atmospheric depth of field but detailed architecture at the periphery. No writing, logos, signs, UI or watermarks. Landscape composition matching reference 1422:1106, output maximum edge 2048 pixels, ideally 2048x1592. Opaque background, high quality game environment, coherent warm light from upper left.",
+      "transparent_background": false,
+      "dimensions": [
+        1424,
+        1104
+      ],
+      "sha256": "12fca55ffd5a3e680028f3a7852b0456f6ffed6d681fe63300ed58e866a31276",
+      "iteration": "v2",
+      "reference": "docs/reference/machidoku_visual_target_desktop_v2.png"
+    },
+    {
+      "file": "game/assets/specialists/specialists_atlas_v2.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Produce ONE transparent production-ready character PORTRAIT ATLAS texture for the premium casual puzzle game MACHIDOKU. The provided reference image is the NORMATIVE style reference only, not the output composition. Match exactly the charming highly polished 2.5D orange-hardhat specialist in that reference: friendly adult faces, big readable eyes and small smile, rounded helmet/hair, rich saturated color, smooth volumetric shading, subtle dark blue outlines, warm studio light upper left. This is ONE coherent asset sheet, the same artist and rendering style throughout. Output a landscape 2:1 RGBA image, ideally 2048x1024, genuinely transparent background, no frames, no UI, no titles, no text. Arrange EXACTLY TEN isolated chest-up portrait busts in a PRECISE 5-column by 2-row uniform grid, equal rectangular cells. Every bust centered on its own cell, entirely inside its cell with 9% transparent margins on all sides; straight aligned bottoms, no overlaps, no contact shadows crossing cells. Large head and upper shoulders like the reference, no hands, tools or protruding equipment. Every person looks forward, identical pose/framing/proportions. Top row left-to-right: 1 male sheet-metal specialist orange hardhat, orange reflective safety vest, navy shirt (match reference main worker); 2 female welding specialist raised dark navy welding hood and safety goggles, teal/navy uniform; 3 male painting specialist purple cap, purple workwear, small respirator resting at collar; 4 female electrical specialist green hardhat and green/navy safety uniform; 5 male assembly specialist blue cap and navy uniform. Bottom row left-to-right: 6 female quality-inspection specialist orange hardhat and clear safety glasses; 7 female logistics specialist magenta/pink cap and round safety goggles; 8 male testing specialist cyan hardhat and turquoise uniform; 9 male powertrain specialist navy hardhat and orange workwear, short neat beard; 10 female finishing specialist purple hardhat and magenta/navy uniform. Diverse adult faces and skin tones but all naturally friendly, no chibi or photorealism. Ensure exact regular grid layout so each character can be addressed as one AtlasTexture region in Godot. The entire space outside all silhouettes, including between heads and in margins, must be true alpha transparency, not white, not checkerboard painted in. Do not include any scene, board, tile, cards, labels, icons or lettering.",
+      "transparent_background": true,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "c618e0e65d04b098c6605d19487e6f9095c938646afe5c2e0db05621452f1c02",
+      "iteration": "v2",
+      "reference": "docs/reference/machidoku_visual_target_desktop_v2.png"
+    },
+    {
+      "file": "game/assets/vehicles/suv.png",
+      "source": "Local AI image generation; original machine path withheld.",
+      "prompt": "Use case: stylized-concept. Asset: one transparent SUV vehicle game illustration for MACHIDOKU. Reference 1 is the normative finished UI art style. Reference 2 is the existing sedan to match as the exact same illustration family, with equal premium 2.5D game polish, smooth warm upper-left lighting, orange body, navy glass, soft strong highlights, clear shapes. Generate ONE fictional compact modern five-door SUV, taller cabin, substantial clearance, roof rails, distinct SUV proportions, not a hatchback or sedan. Front three-quarter view with nose pointing viewer's RIGHT. All wheels and silhouette in frame. Wide 2:1 RGBA transparent canvas, centered car filling 90% width and 80% height, thin translucent grounding shadow directly below tires only. No scenery, display platform, UI, lettering, manufacturer badges, logos, watermarks or license text. Saturated orange body and pale warm highlights, dark navy tires, silver rims. No photorealism, no flat vector, no chibi. Maximum resolution 2048 pixels on either side. True alpha transparency.",
+      "transparent_background": true,
+      "dimensions": [
+        1774,
+        887
+      ],
+      "sha256": "8660b67c8fe7a3eb084e13fa96d265fe35d07c646e3b2873327685b8ff3756db",
+      "iteration": "v2",
+      "reference": "docs/reference/machidoku_visual_target_desktop_v2.png"
+    }
+  ]
+}

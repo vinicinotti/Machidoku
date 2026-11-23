@@ -1,0 +1,10245 @@
+{
+  "version": 2,
+  "world": "automotive",
+  "count": 60,
+  "seeds": {
+    "hatch": 41971,
+    "sedan": 52021,
+    "suv": 62021,
+    "sport_coupe": 72021
+  },
+  "profile_files": {
+    "hatch": "tools/generator/profiles.json",
+    "new_products": "tools/generator/campaign_profiles.json"
+  },
+  "levels": [
+    {
+      "id": 1,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 1,
+        "starter": true
+      },
+      "validation": {
+        "id": 1,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 10,
+      "confinements": 1,
+      "max_dependency_depth": 7,
+      "initial_candidates": 15,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_in_sector": 1,
+        "row_single": 4
+      },
+      "trace": [
+        {
+          "rule": "row_in_sector",
+          "group": 4,
+          "target": 4,
+          "eliminated": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            2
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 7
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 17,
+        "starter": false
+      },
+      "validation": {
+        "id": 2,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 11,
+      "initial_singletons": 3,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_single": 2
+      },
+      "trace": [
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 6,
+      "difficulty": "easy",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 42,
+        "starter": false
+      },
+      "validation": {
+        "id": 3,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 21,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 7,
+      "difficulty": "easy",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 82,
+        "starter": false
+      },
+      "validation": {
+        "id": 4,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 16,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 5
+      },
+      "trace": [
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            5
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 1384,
+        "starter": false
+      },
+      "validation": {
+        "id": 5,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 1,
+      "max_dependency_depth": 12,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 3,
+        "sector_in_column": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 1,
+          "target": 2,
+          "eliminated": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            1,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 7,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 1298,
+        "starter": false
+      },
+      "validation": {
+        "id": 6,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 10,
+      "confinements": 0,
+      "max_dependency_depth": 10,
+      "initial_candidates": 32,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 4
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 159,
+        "starter": false
+      },
+      "validation": {
+        "id": 7,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 12,
+      "confinements": 0,
+      "max_dependency_depth": 12,
+      "initial_candidates": 29,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            7
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            3
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 627,
+        "starter": false
+      },
+      "validation": {
+        "id": 8,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 13,
+      "confinements": 1,
+      "max_dependency_depth": 10,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 2,
+        "row_single": 3,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 0,
+          "target": 1,
+          "eliminated": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 3636,
+        "starter": false
+      },
+      "validation": {
+        "id": 9,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 12,
+      "confinements": 0,
+      "max_dependency_depth": 12,
+      "initial_candidates": 44,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 5
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            1
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            6
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 13803,
+        "starter": false
+      },
+      "validation": {
+        "id": 10,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 22,
+      "confinements": 3,
+      "max_dependency_depth": 13,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 1,
+        "row_single": 3,
+        "sector_in_row": 2,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 1,
+          "target": 5,
+          "eliminated": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 3,
+          "target": 3,
+          "eliminated": [
+            [
+              3,
+              6
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            5
+          ],
+          "depth": 13
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 9,
+      "difficulty": "normal",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 984,
+        "starter": false
+      },
+      "validation": {
+        "id": 11,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 16,
+      "confinements": 1,
+      "max_dependency_depth": 13,
+      "initial_candidates": 38,
+      "initial_singletons": 0,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_in_row": 1,
+        "sector_single": 4
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            8
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            7
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            6
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 8,
+          "cell": [
+            8,
+            1
+          ],
+          "depth": 13
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 8,
+      "difficulty": "hard",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 84327,
+        "starter": false
+      },
+      "validation": {
+        "id": 12,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 23,
+      "confinements": 2,
+      "max_dependency_depth": 17,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 1,
+        "row_single": 4,
+        "sector_in_row": 1,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            7
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            6
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 4,
+          "target": 5,
+          "eliminated": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 15
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            1
+          ],
+          "depth": 17
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          6
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 10290,
+        "starter": false
+      },
+      "validation": {
+        "id": 13,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 19,
+      "confinements": 2,
+      "max_dependency_depth": 13,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 2,
+        "row_single": 3,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 6,
+          "target": 2,
+          "eliminated": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 13
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 8,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 73595,
+        "starter": false
+      },
+      "validation": {
+        "id": 14,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 29,
+      "confinements": 5,
+      "max_dependency_depth": 14,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "row_in_sector": 1,
+        "row_single": 6,
+        "sector_in_column": 3,
+        "sector_in_row": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 4,
+          "target": 6,
+          "eliminated": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 5,
+          "target": 2,
+          "eliminated": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 1,
+          "eliminated": [
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            7
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            2
+          ],
+          "depth": 14
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "world": "automotive",
+      "product": "hatch",
+      "vehicle_name": "Hatch Compact",
+      "size": 9,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 1,
+        "seed": 41971,
+        "attempt": 251,
+        "starter": false,
+        "source_level": 14,
+        "boundary_mutations": 23
+      },
+      "validation": {
+        "id": 15,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 32,
+      "confinements": 6,
+      "max_dependency_depth": 14,
+      "initial_candidates": 62,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_in_sector": 2,
+        "row_single": 7,
+        "sector_in_column": 3,
+        "sector_in_row": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 4,
+          "target": 6,
+          "eliminated": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 5,
+          "target": 2,
+          "eliminated": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 1,
+          "eliminated": [
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 6,
+          "target": 6,
+          "eliminated": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              7,
+              5
+            ]
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            7
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            2
+          ],
+          "depth": 14
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          8
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 1,
+        "starter": false
+      },
+      "validation": {
+        "id": 16,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 4,
+      "confinements": 0,
+      "max_dependency_depth": 4,
+      "initial_candidates": 14,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 4
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 5,
+        "starter": false
+      },
+      "validation": {
+        "id": 17,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 6,
+      "confinements": 0,
+      "max_dependency_depth": 6,
+      "initial_candidates": 14,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            4
+          ],
+          "depth": 6
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 6,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 262,
+        "starter": false
+      },
+      "validation": {
+        "id": 18,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 15,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 3,
+        "row_single": 2
+      },
+      "trace": [
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            5
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 7,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 2,
+        "starter": false
+      },
+      "validation": {
+        "id": 19,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 16,
+      "initial_singletons": 2,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 765,
+        "starter": false
+      },
+      "validation": {
+        "id": 20,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 2,
+      "max_dependency_depth": 9,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_in_sector": 1,
+        "row_single": 4,
+        "sector_in_column": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 0,
+          "target": 5,
+          "eliminated": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 5,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            2
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 7,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 175,
+        "starter": false
+      },
+      "validation": {
+        "id": 21,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 12,
+      "confinements": 1,
+      "max_dependency_depth": 9,
+      "initial_candidates": 27,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_in_sector": 1,
+        "row_single": 4
+      },
+      "trace": [
+        {
+          "rule": "row_in_sector",
+          "group": 3,
+          "target": 3,
+          "eliminated": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            6,
+            3
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 656,
+        "starter": false
+      },
+      "validation": {
+        "id": 22,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 10,
+      "confinements": 0,
+      "max_dependency_depth": 10,
+      "initial_candidates": 30,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "column_single": 2,
+        "row_single": 2,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            7
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          6
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 799,
+        "starter": false
+      },
+      "validation": {
+        "id": 23,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 1,
+      "max_dependency_depth": 12,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 2,
+        "sector_in_column": 1,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 2,
+          "target": 5,
+          "eliminated": [
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            2
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 958,
+        "starter": false
+      },
+      "validation": {
+        "id": 24,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 10,
+      "confinements": 0,
+      "max_dependency_depth": 10,
+      "initial_candidates": 45,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 5
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            1
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            7
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            6
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 1157,
+        "starter": false
+      },
+      "validation": {
+        "id": 25,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 25,
+      "confinements": 4,
+      "max_dependency_depth": 13,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_in_sector": 2,
+        "row_single": 4,
+        "sector_in_column": 2,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 6,
+          "eliminated": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 5,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            4
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            3
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "depth": 13
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 9,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 1558,
+        "starter": false
+      },
+      "validation": {
+        "id": 26,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 10,
+      "confinements": 0,
+      "max_dependency_depth": 10,
+      "initial_candidates": 36,
+      "initial_singletons": 2,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 5,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            8
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "sector_single",
+          "group": 8,
+          "cell": [
+            8,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            4
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 8,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 12306,
+        "starter": false
+      },
+      "validation": {
+        "id": 27,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 26,
+      "confinements": 4,
+      "max_dependency_depth": 14,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 2,
+        "row_in_sector": 2,
+        "row_single": 5,
+        "sector_in_column": 1,
+        "sector_in_row": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 4,
+          "target": 4,
+          "eliminated": [
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 6,
+          "target": 7,
+          "eliminated": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            7
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            2
+          ],
+          "depth": 14
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 18734,
+        "starter": false
+      },
+      "validation": {
+        "id": 28,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 21,
+      "confinements": 2,
+      "max_dependency_depth": 15,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 2,
+        "row_single": 3,
+        "sector_in_column": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 1,
+          "target": 2,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 1,
+          "target": 6,
+          "eliminated": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            4,
+            0
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            6
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            1
+          ],
+          "depth": 15
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 8,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 195,
+        "starter": false,
+        "source_level": 27,
+        "boundary_mutations": 20
+      },
+      "validation": {
+        "id": 29,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 34,
+      "confinements": 5,
+      "max_dependency_depth": 19,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "row_single": 6,
+        "sector_in_column": 1,
+        "sector_in_row": 4,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 6,
+          "target": 7,
+          "eliminated": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 3,
+          "target": 3,
+          "eliminated": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            2
+          ],
+          "depth": 15
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 17
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            7
+          ],
+          "depth": 19
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "world": "automotive",
+      "product": "sedan",
+      "vehicle_name": "Sedan",
+      "size": 9,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 52021,
+        "attempt": 203,
+        "starter": false,
+        "source_level": 29,
+        "boundary_mutations": 23
+      },
+      "validation": {
+        "id": 30,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 36,
+      "confinements": 6,
+      "max_dependency_depth": 18,
+      "initial_candidates": 63,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_in_sector": 1,
+        "row_single": 6,
+        "sector_in_column": 2,
+        "sector_in_row": 3
+      },
+      "trace": [
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 1,
+          "eliminated": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 6,
+          "target": 8,
+          "eliminated": [
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              2,
+              1
+            ]
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            7
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 6,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            8
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            3
+          ],
+          "depth": 16
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 18
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 9,
+        "starter": false
+      },
+      "validation": {
+        "id": 31,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 11,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_single": 2
+      },
+      "trace": [
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 3,
+        "starter": false
+      },
+      "validation": {
+        "id": 32,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 15,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 6,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 207,
+        "starter": false
+      },
+      "validation": {
+        "id": 33,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 23,
+      "initial_singletons": 2,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 7,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 72,
+        "starter": false
+      },
+      "validation": {
+        "id": 34,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 18,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_single": 4,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 1977,
+        "starter": false
+      },
+      "validation": {
+        "id": 35,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 1,
+      "max_dependency_depth": 12,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "row_in_sector": 1,
+        "row_single": 6
+      },
+      "trace": [
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 7,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 405,
+        "starter": false
+      },
+      "validation": {
+        "id": 36,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 2,
+      "max_dependency_depth": 9,
+      "initial_candidates": 30,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 2,
+        "row_single": 4,
+        "sector_in_row": 1
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 1,
+          "target": 6,
+          "eliminated": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            1
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            6
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            5
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 222,
+        "starter": false
+      },
+      "validation": {
+        "id": 37,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 14,
+      "confinements": 1,
+      "max_dependency_depth": 11,
+      "initial_candidates": 26,
+      "initial_singletons": 2,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 2,
+        "row_single": 4
+      },
+      "trace": [
+        {
+          "rule": "column_single",
+          "group": 6,
+          "cell": [
+            7,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 4,
+          "target": 6,
+          "eliminated": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            4
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          6
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 1024,
+        "starter": false
+      },
+      "validation": {
+        "id": 38,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 13,
+      "confinements": 1,
+      "max_dependency_depth": 10,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 1,
+        "row_single": 2,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 5,
+          "target": 3,
+          "eliminated": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            5
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 2047,
+        "starter": false
+      },
+      "validation": {
+        "id": 39,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 14,
+      "confinements": 0,
+      "max_dependency_depth": 14,
+      "initial_candidates": 43,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 2,
+        "sector_single": 5
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            7
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            2
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            0
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 14
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 25988,
+        "starter": false
+      },
+      "validation": {
+        "id": 40,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 21,
+      "confinements": 2,
+      "max_dependency_depth": 15,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 3,
+        "sector_in_row": 2,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 6,
+          "target": 6,
+          "eliminated": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            5
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            6
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            1
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 15
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 9,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 708,
+        "starter": false
+      },
+      "validation": {
+        "id": 41,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 18,
+      "confinements": 1,
+      "max_dependency_depth": 15,
+      "initial_candidates": 38,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "column_single": 1,
+        "row_in_sector": 1,
+        "row_single": 3,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 8,
+          "target": 8,
+          "eliminated": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 8,
+          "cell": [
+            8,
+            0
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 15
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 8,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 53051,
+        "starter": false
+      },
+      "validation": {
+        "id": 42,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 25,
+      "confinements": 4,
+      "max_dependency_depth": 13,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 3,
+        "row_single": 5,
+        "sector_in_row": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 4,
+          "target": 2,
+          "eliminated": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            6,
+            3
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 5,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 6,
+          "target": 3,
+          "eliminated": [
+            [
+              3,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            1
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 5749,
+        "starter": false
+      },
+      "validation": {
+        "id": 43,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 27,
+      "confinements": 4,
+      "max_dependency_depth": 15,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 3,
+        "row_single": 4,
+        "sector_in_row": 2
+      },
+      "trace": [
+        {
+          "rule": "column_in_sector",
+          "group": 1,
+          "target": 4,
+          "eliminated": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 1,
+          "target": 1,
+          "eliminated": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 2,
+          "target": 6,
+          "eliminated": [
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            6
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 15
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 8,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 600,
+        "starter": false,
+        "source_level": 42,
+        "boundary_mutations": 27
+      },
+      "validation": {
+        "id": 44,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 28,
+      "confinements": 4,
+      "max_dependency_depth": 16,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 3,
+        "row_single": 3,
+        "sector_in_column": 3,
+        "sector_in_row": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 1,
+          "target": 7,
+          "eliminated": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 6,
+          "eliminated": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 7,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 6,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 4,
+          "target": 2,
+          "eliminated": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            3
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 16
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            1
+          ],
+          "depth": 16
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "world": "automotive",
+      "product": "suv",
+      "vehicle_name": "SUV",
+      "size": 9,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 62021,
+        "attempt": 124,
+        "starter": false,
+        "source_level": 44,
+        "boundary_mutations": 25
+      },
+      "validation": {
+        "id": 45,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 30,
+      "confinements": 4,
+      "max_dependency_depth": 18,
+      "initial_candidates": 63,
+      "initial_singletons": 0,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_in_sector": 2,
+        "row_single": 3,
+        "sector_in_row": 2,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            3
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              4,
+              4
+            ]
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 16
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            1
+          ],
+          "depth": 18
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          8
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 5,
+        "starter": false
+      },
+      "validation": {
+        "id": 46,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 6,
+      "confinements": 0,
+      "max_dependency_depth": 6,
+      "initial_candidates": 14,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 6
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 5,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 5,
+        "starter": false
+      },
+      "validation": {
+        "id": 47,
+        "size": 5,
+        "specialists": 5,
+        "solutions": 1,
+        "connected_sectors": 5,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 14,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 1,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            2
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 6,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 87,
+        "starter": false
+      },
+      "validation": {
+        "id": 48,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 8,
+      "confinements": 0,
+      "max_dependency_depth": 8,
+      "initial_candidates": 18,
+      "initial_singletons": 3,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 4,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            5
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 7,
+      "difficulty": "easy",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 27,
+        "starter": false
+      },
+      "validation": {
+        "id": 49,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "easy",
+      "score": 6,
+      "confinements": 0,
+      "max_dependency_depth": 6,
+      "initial_candidates": 12,
+      "initial_singletons": 3,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "column_single": 2,
+        "row_single": 2,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            3,
+            0
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            3
+          ],
+          "depth": 6
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 850,
+        "starter": false
+      },
+      "validation": {
+        "id": 50,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 2,
+      "max_dependency_depth": 9,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 3,
+        "sector_in_column": 1,
+        "sector_in_row": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 2,
+          "target": 0,
+          "eliminated": [
+            [
+              5,
+              0
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 5,
+          "cell": [
+            5,
+            1
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            2
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            5
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            4
+          ],
+          "depth": 9
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 7,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 528,
+        "starter": false
+      },
+      "validation": {
+        "id": 51,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 13,
+      "confinements": 1,
+      "max_dependency_depth": 10,
+      "initial_candidates": 30,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_single": 2,
+        "row_in_sector": 1,
+        "row_single": 3,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 4,
+          "target": 4,
+          "eliminated": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            0,
+            2
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            6
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            4
+          ],
+          "depth": 10
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 216,
+        "starter": false
+      },
+      "validation": {
+        "id": 52,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 16,
+      "confinements": 2,
+      "max_dependency_depth": 10,
+      "initial_candidates": 30,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "row_in_sector": 1,
+        "row_single": 5,
+        "sector_in_column": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 3,
+          "target": 7,
+          "eliminated": [
+            [
+              1,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            4
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            1
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            7
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 8
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 6,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 457,
+        "starter": false
+      },
+      "validation": {
+        "id": 53,
+        "size": 6,
+        "specialists": 6,
+        "solutions": 1,
+        "connected_sectors": 6,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 15,
+      "confinements": 1,
+      "max_dependency_depth": 12,
+      "initial_candidates": 36,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 3,
+        "sector_in_row": 1,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            5,
+            3
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            0
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 8,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 5603,
+        "starter": false
+      },
+      "validation": {
+        "id": 54,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 12,
+      "confinements": 0,
+      "max_dependency_depth": 12,
+      "initial_candidates": 38,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "row_single": 3,
+        "sector_single": 4
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            7
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_single",
+          "group": 3,
+          "cell": [
+            3,
+            2
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 7,
+          "cell": [
+            7,
+            5
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 12
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 7780,
+        "starter": false
+      },
+      "validation": {
+        "id": 55,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 27,
+      "confinements": 4,
+      "max_dependency_depth": 15,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 1,
+        "column_single": 3,
+        "row_in_sector": 2,
+        "row_single": 3,
+        "sector_in_column": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 0,
+          "target": 6,
+          "eliminated": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            5
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_single",
+          "group": 6,
+          "cell": [
+            0,
+            6
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 4,
+          "target": 4,
+          "eliminated": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            1,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 3,
+          "target": 3,
+          "eliminated": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            4
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              6,
+              2
+            ]
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            5,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            0
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            1
+          ],
+          "depth": 15
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 9,
+      "difficulty": "normal",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 654,
+        "starter": false
+      },
+      "validation": {
+        "id": 56,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "normal",
+      "score": 16,
+      "confinements": 1,
+      "max_dependency_depth": 13,
+      "initial_candidates": 34,
+      "initial_singletons": 1,
+      "fixed_specialists": 2,
+      "rule_counts": {
+        "column_single": 1,
+        "row_in_sector": 1,
+        "row_single": 5,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            6
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            8
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            7
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 8,
+          "target": 8,
+          "eliminated": [
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            8,
+            0
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            3
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 6,
+          "cell": [
+            6,
+            1
+          ],
+          "depth": 13
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 8,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 22320,
+        "starter": false
+      },
+      "validation": {
+        "id": 57,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 20,
+      "confinements": 3,
+      "max_dependency_depth": 11,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_single": 1,
+        "row_single": 4,
+        "sector_in_column": 2,
+        "sector_in_row": 1,
+        "sector_single": 3
+      },
+      "trace": [
+        {
+          "rule": "sector_in_column",
+          "group": 1,
+          "target": 7,
+          "eliminated": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 5,
+          "target": 4,
+          "eliminated": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            5
+          ],
+          "depth": 11
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 7,
+      "difficulty": "hard",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 12948,
+        "starter": false
+      },
+      "validation": {
+        "id": 58,
+        "size": 7,
+        "specialists": 7,
+        "solutions": 1,
+        "connected_sectors": 7,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "hard",
+      "score": 23,
+      "confinements": 4,
+      "max_dependency_depth": 11,
+      "initial_candidates": 49,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 2,
+        "row_single": 3,
+        "sector_in_row": 2,
+        "sector_single": 2
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 2,
+          "target": 2,
+          "eliminated": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 3,
+          "target": 4,
+          "eliminated": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            0,
+            4
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              5,
+              3
+            ]
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "column_single",
+          "group": 3,
+          "cell": [
+            4,
+            3
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            6
+          ],
+          "depth": 9
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "row_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 11
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 8,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 2226,
+        "starter": false,
+        "source_level": 57,
+        "boundary_mutations": 22
+      },
+      "validation": {
+        "id": 59,
+        "size": 8,
+        "specialists": 8,
+        "solutions": 1,
+        "connected_sectors": 8,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 29,
+      "confinements": 4,
+      "max_dependency_depth": 17,
+      "initial_candidates": 64,
+      "initial_singletons": 0,
+      "fixed_specialists": 0,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 4,
+        "row_single": 3,
+        "sector_in_row": 2,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_in_row",
+          "group": 0,
+          "target": 0,
+          "eliminated": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 3,
+          "target": 3,
+          "eliminated": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 0,
+          "target": 2,
+          "eliminated": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "depth": 3
+        },
+        {
+          "rule": "column_single",
+          "group": 1,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_single",
+          "group": 0,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 6
+        },
+        {
+          "rule": "sector_single",
+          "group": 1,
+          "cell": [
+            1,
+            7
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "column_single",
+          "group": 2,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 11
+        },
+        {
+          "rule": "column_single",
+          "group": 4,
+          "cell": [
+            5,
+            4
+          ],
+          "depth": 13
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            6
+          ],
+          "depth": 15
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            3
+          ],
+          "depth": 17
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            5
+          ],
+          "depth": 17
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "world": "automotive",
+      "product": "sport_coupe",
+      "vehicle_name": "Sport Coupe",
+      "size": 9,
+      "difficulty": "very_hard",
+      "generation": {
+        "version": 2,
+        "seed": 72021,
+        "attempt": 417,
+        "starter": false,
+        "source_level": 59,
+        "boundary_mutations": 18
+      },
+      "validation": {
+        "id": 60,
+        "size": 9,
+        "specialists": 9,
+        "solutions": 1,
+        "connected_sectors": 9,
+        "valid": true
+      },
+      "solved_logically": true,
+      "classification": "very_hard",
+      "score": 31,
+      "confinements": 5,
+      "max_dependency_depth": 16,
+      "initial_candidates": 62,
+      "initial_singletons": 1,
+      "fixed_specialists": 1,
+      "rule_counts": {
+        "column_in_sector": 2,
+        "column_single": 1,
+        "row_in_sector": 1,
+        "row_single": 6,
+        "sector_in_column": 1,
+        "sector_in_row": 1,
+        "sector_single": 1
+      },
+      "trace": [
+        {
+          "rule": "sector_single",
+          "group": 6,
+          "cell": [
+            6,
+            2
+          ],
+          "depth": 2
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 4,
+          "target": 3,
+          "eliminated": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "column_in_sector",
+          "group": 0,
+          "target": 2,
+          "eliminated": [
+            [
+              2,
+              1
+            ]
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "sector_in_column",
+          "group": 5,
+          "target": 5,
+          "eliminated": [
+            [
+              3,
+              5
+            ]
+          ],
+          "depth": 4
+        },
+        {
+          "rule": "sector_in_row",
+          "group": 7,
+          "target": 7,
+          "eliminated": [
+            [
+              7,
+              5
+            ]
+          ],
+          "depth": 1
+        },
+        {
+          "rule": "column_single",
+          "group": 5,
+          "cell": [
+            5,
+            5
+          ],
+          "depth": 5
+        },
+        {
+          "rule": "row_in_sector",
+          "group": 4,
+          "target": 4,
+          "eliminated": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "depth": 7
+        },
+        {
+          "rule": "row_single",
+          "group": 3,
+          "cell": [
+            3,
+            4
+          ],
+          "depth": 8
+        },
+        {
+          "rule": "row_single",
+          "group": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "depth": 10
+        },
+        {
+          "rule": "row_single",
+          "group": 1,
+          "cell": [
+            1,
+            8
+          ],
+          "depth": 12
+        },
+        {
+          "rule": "row_single",
+          "group": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 4,
+          "cell": [
+            4,
+            7
+          ],
+          "depth": 14
+        },
+        {
+          "rule": "row_single",
+          "group": 7,
+          "cell": [
+            7,
+            6
+          ],
+          "depth": 16
+        }
+      ],
+      "derived_solution": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          3
+        ]
+      ]
+    }
+  ]
+}

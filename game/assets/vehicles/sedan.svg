@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256">
+<defs><linearGradient id="body-surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFBD7C"/><stop offset="1" stop-color="#F4A261"/></linearGradient><linearGradient id="body-front" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F4A261"/><stop offset="1" stop-color="#DE8B4A"/></linearGradient><linearGradient id="glass-surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#436F7E"/><stop offset="1" stop-color="#264653"/></linearGradient></defs>
+<ellipse cx="257" cy="222" rx="210" ry="12" fill="#264653" opacity=".10"/>
+<g fill="#1B252D" stroke="#264653" stroke-width="3"><ellipse cx="130" cy="190" rx="34" ry="36"/><ellipse cx="369" cy="195" rx="34" ry="36"/></g>
+<g fill="#FFE6CF"><ellipse cx="130" cy="190" rx="17" ry="19"/><ellipse cx="369" cy="195" rx="17" ry="19"/></g>
+<g fill="#264653"><ellipse cx="130" cy="190" rx="7" ry="8"/><ellipse cx="369" cy="195" rx="7" ry="8"/></g>
+<path d="M50 147 98 130 151 84Q162 73 181 73H282Q295 73 307 86L350 132 431 145 431 195 403 197C399 151 337 149 333 196L164 193C160 147 97 146 94 191L50 184Z" fill="url(#body-surface)" stroke="#264653" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M423 139 469 157Q475 160 474 169L470 193 423 194Z" fill="url(#body-front)" stroke="#264653" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M337 127 382 115 455 139 469 157 423 139Z" fill="#FFC88D" stroke="#264653" stroke-width="3" stroke-linejoin="round"/>
+<path d="M174 86 124 127 211 128 211 86Z M224 86H279Q286 86 294 94L329 131 224 129Z" fill="url(#glass-surface)" stroke="#264653" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="m202 91 29 28" stroke="#D5E7E2" stroke-width="5" opacity=".23" stroke-linecap="round"/>
+<path d="M192 141 188 178M170 181l160 3" stroke="#D48A4C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="m204 143 19 1" stroke="#264653" stroke-width="3.5" stroke-linecap="round"/>
+<path d="m70 143 16-4-1 15-17 1Z" fill="#E76F51"/>
+<path d="m431 151 31 11-2 9-29-8Z" fill="#FFF5DE" stroke="#264653" stroke-width="2" stroke-linejoin="round"/>
+<path d="m437 179 26 2-1 6-25-2Z" fill="#264653"/>
+<path d="m62 173 24 3m322 9 11 1" stroke="#264653" stroke-width="4" stroke-linecap="round"/>
+<path d="m88 137 86 3m151-2 91 10" stroke="#FFEAD2" stroke-width="3" opacity=".65" stroke-linecap="round"/>
+</svg>

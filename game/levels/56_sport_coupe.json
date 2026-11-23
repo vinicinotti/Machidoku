@@ -1,0 +1,181 @@
+{
+  "id": 56,
+  "name": "Linha Sport Coupe 56",
+  "world": "automotive",
+  "product": "sport_coupe",
+  "vehicle_name": "Sport Coupe",
+  "difficulty": "normal",
+  "size": 9,
+  "regions": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      4,
+      4,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      4,
+      4,
+      1,
+      1,
+      2,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      7,
+      5,
+      5,
+      5,
+      3,
+      3
+    ],
+    [
+      8,
+      6,
+      7,
+      7,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    [
+      8,
+      6,
+      7,
+      7,
+      7,
+      7,
+      5,
+      5,
+      5
+    ],
+    [
+      8,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7,
+      5,
+      5
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "preplaced_specialists": [
+    [
+      1,
+      4
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "product_display_name": "Sport Coupe",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "normal",
+    "score": 16,
+    "confinements": 1,
+    "max_dependency_depth": 13,
+    "initial_candidates": 34,
+    "initial_singletons": 1,
+    "fixed_specialists": 2,
+    "rule_counts": {
+      "column_single": 1,
+      "row_in_sector": 1,
+      "row_single": 5,
+      "sector_single": 1
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 72021,
+    "attempt": 654,
+    "starter": false
+  }
+}

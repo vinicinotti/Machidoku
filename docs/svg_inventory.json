@@ -1,0 +1,617 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "file": "branding/machidoku_logo.svg",
+      "viewBox": "0 0 128 96",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#E76F51",
+        "#F4A261",
+        "#FFE6CF",
+        "#FFF9F2"
+      ]
+    },
+    {
+      "file": "branding/machidoku_symbol.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#041C2B",
+        "#05243A",
+        "#052B50",
+        "#082D45",
+        "#2F86A7",
+        "#A2D8E0",
+        "#CF5B17",
+        "#EDD2AE",
+        "#FF681A",
+        "#FF6B18",
+        "#FFC538",
+        "#FFFEF0",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "decoration/factory_background_left.svg",
+      "viewBox": "0 0 640 300",
+      "colors": [
+        "#C79872",
+        "#D5AB87",
+        "#DCB18B",
+        "#DEB38C",
+        "#FFE6CF"
+      ]
+    },
+    {
+      "file": "decoration/factory_background_right.svg",
+      "viewBox": "0 0 480 300",
+      "colors": [
+        "#C79872",
+        "#D1A37D",
+        "#D5AB87",
+        "#D9AD86",
+        "#DEB38C",
+        "#E6BD98",
+        "#FFE6CF"
+      ]
+    },
+    {
+      "file": "decoration/industrial_shapes.svg",
+      "viewBox": "0 0 320 160",
+      "colors": [
+        "#264653",
+        "#E76F51",
+        "#F4A261"
+      ]
+    },
+    {
+      "file": "rules/no_touching.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#092A43",
+        "#2F86A7",
+        "#4191AB",
+        "#EDD2AE",
+        "#EE6431",
+        "#FF681A",
+        "#FFC538",
+        "#FFF6DB",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "rules/one_per_row_column.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFCF50",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "rules/one_per_sector.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#6CD7E9",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/assembly.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#7DC5E9",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/electric.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#7CE2AA",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/electrical.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#7CE2AA",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/inspection.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#A6DCF1",
+        "#EDD2AE",
+        "#FAAE46",
+        "#FF681A",
+        "#FFC538",
+        "#FFFDF1",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/logistics.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#A5D4E6",
+        "#D486CC",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/painting.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#EDD2AE",
+        "#F0B6FF",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/powertrain.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#97DCE8",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/stamping.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#8CD7F0",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFF6D9",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/testing.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFB32D",
+        "#FFC538",
+        "#FFE27B",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "sectors/welding.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#72BDDC",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFE17A",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "specialists/specialist.svg",
+      "viewBox": "0 0 256 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#365E6D",
+        "#A96C55",
+        "#B67C58",
+        "#C18B68",
+        "#C57C42",
+        "#D6A17B",
+        "#E3AF89",
+        "#F4A261",
+        "#F5CCAA",
+        "#FFC58A",
+        "#FFD6A9",
+        "#FFE6CF",
+        "#FFEEDC",
+        "#FFF9F2"
+      ]
+    },
+    {
+      "file": "specialists/specialist_default.svg",
+      "viewBox": "0 0 256 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#365E6D",
+        "#A96C55",
+        "#B67C58",
+        "#C18B68",
+        "#C57C42",
+        "#D6A17B",
+        "#E3AF89",
+        "#F4A261",
+        "#F5CCAA",
+        "#FFC58A",
+        "#FFD6A9",
+        "#FFE6CF",
+        "#FFEEDC",
+        "#FFF9F2"
+      ]
+    },
+    {
+      "file": "ui/app_icon.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#041C2B",
+        "#05243A",
+        "#052B50",
+        "#082D45",
+        "#2F86A7",
+        "#A2D8E0",
+        "#CF5B17",
+        "#EDD2AE",
+        "#FF681A",
+        "#FF6B18",
+        "#FFC538",
+        "#FFFEF0",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "ui/factory.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#72CAE6",
+        "#EDD2AE",
+        "#FF681A",
+        "#FF8535",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/icon_back.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_car.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_check.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_difficulty.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#2F86A7",
+        "#64461D",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFF5BC",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/icon_dropdown.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_error.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#E76F51",
+        "#FFF9F2"
+      ]
+    },
+    {
+      "file": "ui/icon_factory.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#72CAE6",
+        "#EDD2AE",
+        "#FF681A",
+        "#FF8535",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/icon_life.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#2F86A7",
+        "#8D4E24",
+        "#9B5419",
+        "#C96920",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFE8AD",
+        "#FFFEF0",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "ui/icon_life_empty.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#2F86A7",
+        "#A59C90",
+        "#B7AEA1",
+        "#E9D7C5",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/icon_lock.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_restart.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#264653"
+      ]
+    },
+    {
+      "file": "ui/icon_restart_action.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#2F86A7",
+        "#983610",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFF8E6",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/icon_settings.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#2F86A7",
+        "#8C3B1B",
+        "#933917",
+        "#B1471E",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFD593",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/rule_axes.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFCF50",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/rule_distance.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#092A43",
+        "#2F86A7",
+        "#4191AB",
+        "#EDD2AE",
+        "#EE6431",
+        "#FF681A",
+        "#FFC538",
+        "#FFF6DB",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "ui/rule_region.svg",
+      "viewBox": "0 0 64 64",
+      "colors": [
+        "#052B50",
+        "#07365A",
+        "#2F86A7",
+        "#6CD7E9",
+        "#EDD2AE",
+        "#FF681A",
+        "#FFC538",
+        "#FFFEF0"
+      ]
+    },
+    {
+      "file": "vehicles/hatch.svg",
+      "viewBox": "0 0 512 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#436F7E",
+        "#D48A4C",
+        "#D5E7E2",
+        "#DE8B4A",
+        "#E76F51",
+        "#F4A261",
+        "#FFBD7C",
+        "#FFC88D",
+        "#FFE6CF",
+        "#FFEAD2",
+        "#FFF5DE"
+      ]
+    },
+    {
+      "file": "vehicles/hatch_compact.svg",
+      "viewBox": "0 0 512 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#436F7E",
+        "#D48A4C",
+        "#D5E7E2",
+        "#DE8B4A",
+        "#E76F51",
+        "#F4A261",
+        "#FFBD7C",
+        "#FFC88D",
+        "#FFE6CF",
+        "#FFEAD2",
+        "#FFF5DE"
+      ]
+    },
+    {
+      "file": "vehicles/sedan.svg",
+      "viewBox": "0 0 512 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#436F7E",
+        "#D48A4C",
+        "#D5E7E2",
+        "#DE8B4A",
+        "#E76F51",
+        "#F4A261",
+        "#FFBD7C",
+        "#FFC88D",
+        "#FFE6CF",
+        "#FFEAD2",
+        "#FFF5DE"
+      ]
+    },
+    {
+      "file": "vehicles/sport_coupe.svg",
+      "viewBox": "0 0 512 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#436F7E",
+        "#D48A4C",
+        "#D5E7E2",
+        "#DE8B4A",
+        "#E76F51",
+        "#F4A261",
+        "#FFBD7C",
+        "#FFC88D",
+        "#FFE6CF",
+        "#FFEAD2",
+        "#FFF5DE"
+      ]
+    },
+    {
+      "file": "vehicles/sports.svg",
+      "viewBox": "0 0 512 256",
+      "colors": [
+        "#1B252D",
+        "#264653",
+        "#436F7E",
+        "#D48A4C",
+        "#D5E7E2",
+        "#DE8B4A",
+        "#E76F51",
+        "#F4A261",
+        "#FFBD7C",
+        "#FFC88D",
+        "#FFE6CF",
+        "#FFEAD2",
+        "#FFF5DE"
+      ]
+    }
+  ]
+}

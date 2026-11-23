@@ -1,0 +1,109 @@
+{
+  "id": 38,
+  "name": "Linha SUV 38",
+  "world": "automotive",
+  "product": "suv",
+  "vehicle_name": "SUV",
+  "difficulty": "normal",
+  "size": 6,
+  "regions": [
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    [
+      1,
+      2,
+      2,
+      0,
+      3,
+      3
+    ],
+    [
+      2,
+      2,
+      2,
+      4,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      4,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      4,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      3,
+      3
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "preplaced_specialists": [],
+  "product_display_name": "SUV",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "normal",
+    "score": 13,
+    "confinements": 1,
+    "max_dependency_depth": 10,
+    "initial_candidates": 36,
+    "initial_singletons": 0,
+    "fixed_specialists": 0,
+    "rule_counts": {
+      "column_in_sector": 1,
+      "column_single": 1,
+      "row_single": 2,
+      "sector_single": 3
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 62021,
+    "attempt": 1024,
+    "starter": false
+  }
+}

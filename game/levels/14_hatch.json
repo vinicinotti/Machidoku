@@ -1,0 +1,149 @@
+{
+  "id": 14,
+  "name": "Linha Hatch Compact 14",
+  "world": "automotive",
+  "product": "hatch",
+  "vehicle_name": "Hatch Compact",
+  "difficulty": "very_hard",
+  "size": 8,
+  "regions": [
+    [
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      4,
+      6
+    ],
+    [
+      3,
+      3,
+      5,
+      2,
+      2,
+      2,
+      4,
+      6
+    ],
+    [
+      3,
+      3,
+      5,
+      7,
+      2,
+      2,
+      6,
+      6
+    ],
+    [
+      3,
+      7,
+      7,
+      7,
+      6,
+      6,
+      6,
+      6
+    ],
+    [
+      7,
+      7,
+      7,
+      7,
+      7,
+      6,
+      6,
+      6
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      4
+    ]
+  ],
+  "preplaced_specialists": [],
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "very_hard",
+    "score": 29,
+    "confinements": 5,
+    "max_dependency_depth": 14,
+    "initial_candidates": 64,
+    "initial_singletons": 0,
+    "fixed_specialists": 0,
+    "rule_counts": {
+      "row_in_sector": 1,
+      "row_single": 6,
+      "sector_in_column": 3,
+      "sector_in_row": 1,
+      "sector_single": 2
+    }
+  },
+  "generation": {
+    "version": 1,
+    "seed": 41971,
+    "attempt": 73595,
+    "starter": false
+  }
+}

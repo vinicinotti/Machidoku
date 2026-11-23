@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<defs><linearGradient id="helmet-surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFC58A"/><stop offset="1" stop-color="#F4A261"/></linearGradient><linearGradient id="uniform-surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#365E6D"/><stop offset="1" stop-color="#264653"/></linearGradient><linearGradient id="face-surface" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F5CCAA"/><stop offset="1" stop-color="#E3AF89"/></linearGradient></defs>
+<ellipse cx="128" cy="242" rx="87" ry="9" fill="#264653" opacity=".10"/>
+<path d="M42 237v-31c0-35 35-57 86-57s86 22 86 57v31Z" fill="#1B252D" opacity=".13" transform="translate(0 5)"/>
+<path d="M42 236v-31c0-35 35-57 86-57s86 22 86 57v31Z" fill="url(#uniform-surface)" stroke="#264653" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="m83 162 45 31 45-31 16 74H67Z" fill="#F4A261"/>
+<path d="m83 162 14 10-9 64H76Zm90 0-14 10 9 64h12Z" fill="#FFE6CF"/>
+<path d="m80 206-4 12h104l-3-12Z" fill="#FFEEDC" opacity=".8"/>
+<path d="M109 142h38v33l-19 18-19-18Z" fill="#D6A17B"/>
+<path d="m109 171 19 22-16 12-16-32m51-2-19 22 16 12 16-32" fill="#264653"/>
+<path d="M128 195v41" stroke="#264653" stroke-width="3.5"/>
+<rect x="146" y="211" width="23" height="16" rx="4" fill="#264653"/>
+<path d="M151 215h12" stroke="#FFE6CF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<ellipse cx="77" cy="118" rx="11" ry="16" fill="#E3AF89"/><ellipse cx="179" cy="118" rx="11" ry="16" fill="#E3AF89"/>
+<path d="M78 87h100v41c0 30-21 52-50 52s-50-22-50-52Z" fill="url(#face-surface)" stroke="#264653" stroke-width="3.5"/>
+<path d="M81 99h94v12H81Z" fill="#B67C58" opacity=".17"/>
+<path d="M98 125h9m42 0h9" stroke="#264653" stroke-width="4.5" stroke-linecap="round"/>
+<path d="m128 128-4 11h7" fill="none" stroke="#C18B68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M115 151q13 8 26 0" fill="none" stroke="#A96C55" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M61 89c0-42 27-70 67-70s67 28 67 70v12H61Z" fill="#C57C42" transform="translate(0 4)"/>
+<path d="M61 89c0-42 27-70 67-70s67 28 67 70v12H61Z" fill="url(#helmet-surface)" stroke="#264653" stroke-width="3.5"/>
+<path d="M78 71c6-20 17-31 34-36" fill="none" stroke="#FFE6CF" stroke-width="7" opacity=".65" stroke-linecap="round"/>
+<rect x="118" y="15" width="20" height="71" rx="8" fill="#FFD6A9" stroke="#F4A261" stroke-width="2"/>
+<path d="M58 91h140a8 8 0 0 1 0 16H58a8 8 0 0 1 0-16Z" fill="#264653"/>
+<path d="M64 93h127" stroke="#FFF9F2" stroke-width="2" opacity=".25" stroke-linecap="round"/>
+</svg>

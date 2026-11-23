@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "worlds": [
+    {
+      "id": "automotive",
+      "name": "AUTOMOTIVE",
+      "sectors": ["Chaparia", "Soldagem", "Pintura", "Elétrica", "Montagem", "Inspeção", "Logística", "Testes", "Powertrain", "Acabamento"],
+      "icons": ["stamping", "welding", "painting", "electrical", "assembly", "inspection", "logistics", "testing", "powertrain", "inspection"],
+      "products": [
+        {"id": "hatch", "display_name": "Hatch Compact", "asset": "res://assets/vehicles/hatch_compact.png", "start_id": 1, "level_count": 15},
+        {"id": "sedan", "display_name": "Sedan", "asset": "res://assets/vehicles/sedan.png", "start_id": 16, "level_count": 15},
+        {"id": "suv", "display_name": "SUV", "asset": "res://assets/vehicles/suv_placeholder.tres", "placeholder": true, "start_id": 31, "level_count": 15},
+        {"id": "sport_coupe", "display_name": "Sport Coupe", "asset": "res://assets/vehicles/sport_coupe.png", "start_id": 46, "level_count": 15}
+      ]
+    }
+  ]
+}

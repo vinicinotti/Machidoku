@@ -1,0 +1,19 @@
+name: Privacy and secret checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Audit public files and commit history
+        run: python3 tools/publish/publish.py --audit-only
+      - name: Validate project data and assets
+        run: python3 -m unittest discover -s tests -v

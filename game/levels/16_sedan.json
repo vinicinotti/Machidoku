@@ -1,0 +1,96 @@
+{
+  "id": 16,
+  "name": "Linha Sedan 16",
+  "world": "automotive",
+  "product": "sedan",
+  "vehicle_name": "Sedan",
+  "difficulty": "easy",
+  "size": 5,
+  "regions": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    [
+      2,
+      0,
+      0,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "preplaced_specialists": [
+    [
+      3,
+      4
+    ]
+  ],
+  "product_display_name": "Sedan",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "easy",
+    "score": 4,
+    "confinements": 0,
+    "max_dependency_depth": 4,
+    "initial_candidates": 14,
+    "initial_singletons": 2,
+    "fixed_specialists": 1,
+    "rule_counts": {
+      "column_single": 1,
+      "row_single": 1,
+      "sector_single": 2
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 52021,
+    "attempt": 1,
+    "starter": false
+  }
+}

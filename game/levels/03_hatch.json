@@ -1,0 +1,111 @@
+{
+  "id": 3,
+  "name": "Linha Hatch Compact 03",
+  "world": "automotive",
+  "product": "hatch",
+  "vehicle_name": "Hatch Compact",
+  "difficulty": "easy",
+  "size": 6,
+  "regions": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      1
+    ],
+    [
+      4,
+      2,
+      2,
+      0,
+      3,
+      3
+    ],
+    [
+      4,
+      2,
+      5,
+      5,
+      3,
+      3
+    ],
+    [
+      4,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "preplaced_specialists": [
+    [
+      0,
+      1
+    ]
+  ],
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "easy",
+    "score": 8,
+    "confinements": 0,
+    "max_dependency_depth": 8,
+    "initial_candidates": 21,
+    "initial_singletons": 2,
+    "fixed_specialists": 1,
+    "rule_counts": {
+      "row_single": 2,
+      "sector_single": 3
+    }
+  },
+  "generation": {
+    "version": 1,
+    "seed": 41971,
+    "attempt": 42,
+    "starter": false
+  }
+}

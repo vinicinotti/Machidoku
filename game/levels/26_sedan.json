@@ -1,0 +1,179 @@
+{
+  "id": 26,
+  "name": "Linha Sedan 26",
+  "world": "automotive",
+  "product": "sedan",
+  "vehicle_name": "Sedan",
+  "difficulty": "normal",
+  "size": 9,
+  "regions": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      3,
+      3
+    ],
+    [
+      6,
+      5,
+      5,
+      5,
+      5,
+      7,
+      4,
+      3,
+      3
+    ],
+    [
+      6,
+      6,
+      6,
+      6,
+      7,
+      7,
+      7,
+      3,
+      3
+    ],
+    [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      3
+    ],
+    [
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7,
+      3
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      2
+    ]
+  ],
+  "preplaced_specialists": [
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "product_display_name": "Sedan",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "normal",
+    "score": 10,
+    "confinements": 0,
+    "max_dependency_depth": 10,
+    "initial_candidates": 36,
+    "initial_singletons": 2,
+    "fixed_specialists": 2,
+    "rule_counts": {
+      "row_single": 5,
+      "sector_single": 2
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 52021,
+    "attempt": 1558,
+    "starter": false
+  }
+}

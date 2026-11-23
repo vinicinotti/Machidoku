@@ -1,0 +1,152 @@
+{
+  "id": 44,
+  "name": "Linha SUV 44",
+  "world": "automotive",
+  "product": "suv",
+  "vehicle_name": "SUV",
+  "difficulty": "very_hard",
+  "size": 8,
+  "regions": [
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      5,
+      5,
+      2,
+      2,
+      2,
+      0,
+      1
+    ],
+    [
+      5,
+      5,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      4,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    [
+      5,
+      5,
+      4,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      6,
+      2,
+      6,
+      2,
+      6
+    ],
+    [
+      7,
+      7,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "preplaced_specialists": [],
+  "product_display_name": "SUV",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "very_hard",
+    "score": 28,
+    "confinements": 4,
+    "max_dependency_depth": 16,
+    "initial_candidates": 64,
+    "initial_singletons": 0,
+    "fixed_specialists": 0,
+    "rule_counts": {
+      "column_single": 3,
+      "row_single": 3,
+      "sector_in_column": 3,
+      "sector_in_row": 1,
+      "sector_single": 2
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 62021,
+    "attempt": 600,
+    "starter": false,
+    "source_level": 42,
+    "boundary_mutations": 27
+  }
+}

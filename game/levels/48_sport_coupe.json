@@ -1,0 +1,112 @@
+{
+  "id": 48,
+  "name": "Linha Sport Coupe 48",
+  "world": "automotive",
+  "product": "sport_coupe",
+  "vehicle_name": "Sport Coupe",
+  "difficulty": "easy",
+  "size": 6,
+  "regions": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      4,
+      4,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    [
+      5,
+      5,
+      4,
+      4,
+      4,
+      3
+    ],
+    [
+      5,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  ],
+  "solution": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "preplaced_specialists": [
+    [
+      4,
+      3
+    ]
+  ],
+  "product_display_name": "Sport Coupe",
+  "difficulty_metrics": {
+    "solved_logically": true,
+    "classification": "easy",
+    "score": 8,
+    "confinements": 0,
+    "max_dependency_depth": 8,
+    "initial_candidates": 18,
+    "initial_singletons": 3,
+    "fixed_specialists": 1,
+    "rule_counts": {
+      "row_single": 4,
+      "sector_single": 1
+    }
+  },
+  "generation": {
+    "version": 2,
+    "seed": 72021,
+    "attempt": 87,
+    "starter": false
+  }
+}
