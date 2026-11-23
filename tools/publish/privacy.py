@@ -57,7 +57,15 @@ def allowed(name: str) -> bool:
         return False
     if p.name.startswith('.env') or p.name in {'.git-credentials', '.netrc', '.npmrc', '.pypirc', 'export_credentials.cfg', 'export.cfg'}:
         return False
-    return True
+    if p.name in {'.gitignore', '.gitattributes', '.editorconfig'} or name in ROOT_FILES:
+        return True
+    if p.suffix.lower() in TEXT_EXTENSIONS:
+        return True
+    if p.suffix.lower() == '.png':
+        return p.parts[:2] in {('game', 'assets'), ('docs', 'reference')}
+    if p.suffix.lower() == '.ttf':
+        return p.parts[:3] == ('game', 'assets', 'fonts')
+    return False
 
 
 def candidates(root: Path) -> list[str]:

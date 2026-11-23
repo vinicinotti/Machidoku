@@ -27,6 +27,10 @@ class PublicationSecurityTest(unittest.TestCase):
     def test_parent_traversal_is_rejected(self):
         self.assertFalse(privacy.allowed('docs/../../account.txt'))
 
+    def test_unreviewed_binary_formats_are_excluded(self):
+        for name in ['docs/account.docx', 'docs/network.pdf', 'game/unknown.bin', 'docs/desktop.png']:
+            self.assertFalse(privacy.allowed(name))
+
     def test_local_workspace_path_is_sanitized(self):
         path = 'C:' + chr(92) + chr(92).join(['Users', 'sample-user', 'Documents', 'Machidoku'])
         self.assertEqual(privacy.sanitize_text(path), '.')
